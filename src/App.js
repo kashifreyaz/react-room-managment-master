@@ -73,7 +73,7 @@ class App extends Component {
   removeAdultCount = () => {
     let { child, adult, room } = this.state;
     let totalMember = child + adult;
-    if (totalMember <= room) {
+    if (adult > 1 && totalMember <= room) {
       adult -= 1;
       room -= 1;
       this.setState({ adult: adult, room: room });

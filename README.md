@@ -40,7 +40,9 @@ They will not be included in the production build so you can use them for things
 ## Available Scripts
 
 In the project directory, you can run:
+
 ### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -73,5 +75,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 By default, the generated project supports all modern browsers.<br>
 Support for Internet Explorer 9, 10, and 11 requires [polyfills](https://github.com/facebook/create-react-app/blob/master/packages/react-app-polyfill/README.md).
-
-
