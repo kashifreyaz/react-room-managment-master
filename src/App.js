@@ -139,7 +139,7 @@ class App extends Component {
         }
       },
       {
-        name: "CHILDS",
+        name: "CHILDREN",
         count: child,
         iconComponent: <AccessibilityIcon className="icon" />,
         onAddClick: () => {
@@ -155,7 +155,7 @@ class App extends Component {
         <div className="app-title">
           <img className="group-logo" src={group} alt="group" />
           <div className="title-label">
-            Choose Number of
+            Choose number of
             <span className="title-people-label">people</span>
           </div>
         </div>
