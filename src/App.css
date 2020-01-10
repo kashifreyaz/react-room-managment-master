@@ -1,5 +1,6 @@
 .my-app {
   width: calc(100% - 100px);
+  min-width: 500px;
   margin: auto;
 }
 
