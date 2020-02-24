@@ -62,7 +62,7 @@ class App extends Component {
     if (totalMember < availableCount) {
       adult += 1;
       this.setState({ adult: adult });
-    } else if (room != maxRoom) {
+    } else if (room !== maxRoom) {
       adult += 1;
       room += 1;
       this.setState({ adult: adult, room: room });
@@ -91,7 +91,7 @@ class App extends Component {
     if (totalMember < availableCount) {
       child += 1;
       this.setState({ child: child });
-    } else if (room != maxRoom) {
+    } else if (room !== maxRoom) {
       child += 1;
       room += 1;
       this.setState({ child: child, room: room });
